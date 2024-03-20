@@ -3,3 +3,74 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    padding: 0 5vw 5vw 2vh;
+    background-color: #1f2937;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+    
+}
+nav li, nav a{
+    flex: 1 1 auto;
+    color: white;
+}
+
+.header-main{
+    display: flex; 
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    gap: 2vh;
+    color: white;
+}
+
+.header-content h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color:#F9FAF8;
+}
+
+.header-content button{
+    padding: 0.5vh 2vw;
+    /* Align-self also stop stretching */
+    align-self: start;
+    background-color: #3882F6;
+    border-radius: 0.5vw;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
+
+
+.footer{
+    padding: 0 5vw;
+    background-color: #1f2937;
+}
+
